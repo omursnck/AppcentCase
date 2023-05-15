@@ -7,18 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6714D9912A10F013001CBD73 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6714D9902A10F013001CBD73 /* URLImage */; };
+		6771D8D72A0AD54100D5C683 /* ArtistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6771D8D62A0AD54100D5C683 /* ArtistViewModel.swift */; };
+		6771D8D92A0AD7FF00D5C683 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6771D8D82A0AD7FF00D5C683 /* AlbumViewModel.swift */; };
+		6771D8DB2A0AEA8F00D5C683 /* SongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6771D8DA2A0AEA8F00D5C683 /* SongViewModel.swift */; };
+		6771D8DF2A0C3DDA00D5C683 /* LikedSongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6771D8DE2A0C3DDA00D5C683 /* LikedSongsView.swift */; };
+		6771D8E12A0C3DE500D5C683 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6771D8E02A0C3DE500D5C683 /* NavView.swift */; };
+		67A8E9E12A0EACBA00D48A91 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67A8E9DF2A0EACBA00D48A91 /* CoreDataModel.xcdatamodeld */; };
+		67A8E9E32A0FCA2300D48A91 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8E9E22A0FCA2300D48A91 /* UserData.swift */; };
 		67E45BAD2A0AA42100B0F711 /* denemeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E45BAC2A0AA42100B0F711 /* denemeApp.swift */; };
 		67E45BAF2A0AA42100B0F711 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E45BAE2A0AA42100B0F711 /* ContentView.swift */; };
 		67E45BB12A0AA42200B0F711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E45BB02A0AA42200B0F711 /* Assets.xcassets */; };
 		67E45BB42A0AA42200B0F711 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E45BB32A0AA42200B0F711 /* Preview Assets.xcassets */; };
+		67E45BBB2A0AA42800B0F711 /* GenreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E45BBA2A0AA42800B0F711 /* GenreModel.swift */; };
+		67E45BBD2A0AA4B500B0F711 /* GenreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E45BBC2A0AA4B500B0F711 /* GenreViewModel.swift */; };
+		67E45BC02A0ABC4900B0F711 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 67E45BBF2A0ABC4900B0F711 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6714D98E2A103ADE001CBD73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6771D8D62A0AD54100D5C683 /* ArtistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewModel.swift; sourceTree = "<group>"; };
+		6771D8D82A0AD7FF00D5C683 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		6771D8DA2A0AEA8F00D5C683 /* SongViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewModel.swift; sourceTree = "<group>"; };
+		6771D8DE2A0C3DDA00D5C683 /* LikedSongsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedSongsView.swift; sourceTree = "<group>"; };
+		6771D8E02A0C3DE500D5C683 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		67A8E9E02A0EACBA00D48A91 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		67A8E9E22A0FCA2300D48A91 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		67E45BA92A0AA42100B0F711 /* deneme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deneme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E45BAC2A0AA42100B0F711 /* denemeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = denemeApp.swift; sourceTree = "<group>"; };
 		67E45BAE2A0AA42100B0F711 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		67E45BB02A0AA42200B0F711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67E45BB32A0AA42200B0F711 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67E45BBA2A0AA42800B0F711 /* GenreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreModel.swift; sourceTree = "<group>"; };
+		67E45BBC2A0AA4B500B0F711 /* GenreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6714D9912A10F013001CBD73 /* URLImage in Frameworks */,
+				67E45BC02A0ABC4900B0F711 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +74,17 @@
 		67E45BAB2A0AA42100B0F711 /* deneme */ = {
 			isa = PBXGroup;
 			children = (
+				6714D98E2A103ADE001CBD73 /* Info.plist */,
 				67E45BAC2A0AA42100B0F711 /* denemeApp.swift */,
 				67E45BAE2A0AA42100B0F711 /* ContentView.swift */,
+				67A8E9E22A0FCA2300D48A91 /* UserData.swift */,
+				67E45BC22A0ABC9900B0F711 /* ViewModels */,
+				67E45BC12A0ABC9500B0F711 /* Models */,
 				67E45BB02A0AA42200B0F711 /* Assets.xcassets */,
 				67E45BB22A0AA42200B0F711 /* Preview Content */,
+				6771D8DE2A0C3DDA00D5C683 /* LikedSongsView.swift */,
+				6771D8E02A0C3DE500D5C683 /* NavView.swift */,
+				67A8E9DF2A0EACBA00D48A91 /* CoreDataModel.xcdatamodeld */,
 			);
 			path = deneme;
 			sourceTree = "<group>";
@@ -65,6 +95,25 @@
 				67E45BB32A0AA42200B0F711 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67E45BC12A0ABC9500B0F711 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				67E45BBA2A0AA42800B0F711 /* GenreModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		67E45BC22A0ABC9900B0F711 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				67E45BBC2A0AA4B500B0F711 /* GenreViewModel.swift */,
+				6771D8D62A0AD54100D5C683 /* ArtistViewModel.swift */,
+				6771D8D82A0AD7FF00D5C683 /* AlbumViewModel.swift */,
+				6771D8DA2A0AEA8F00D5C683 /* SongViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +132,10 @@
 			dependencies = (
 			);
 			name = deneme;
+			packageProductDependencies = (
+				67E45BBF2A0ABC4900B0F711 /* Kingfisher */,
+				6714D9902A10F013001CBD73 /* URLImage */,
+			);
 			productName = deneme;
 			productReference = 67E45BA92A0AA42100B0F711 /* deneme.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +164,10 @@
 				Base,
 			);
 			mainGroup = 67E45BA02A0AA42100B0F711;
+			packageReferences = (
+				67E45BBE2A0ABC4900B0F711 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				6714D98F2A10F013001CBD73 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 67E45BAA2A0AA42100B0F711 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +194,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6771D8DB2A0AEA8F00D5C683 /* SongViewModel.swift in Sources */,
+				67E45BBB2A0AA42800B0F711 /* GenreModel.swift in Sources */,
 				67E45BAF2A0AA42100B0F711 /* ContentView.swift in Sources */,
+				6771D8D92A0AD7FF00D5C683 /* AlbumViewModel.swift in Sources */,
+				67A8E9E12A0EACBA00D48A91 /* CoreDataModel.xcdatamodeld in Sources */,
+				67A8E9E32A0FCA2300D48A91 /* UserData.swift in Sources */,
+				6771D8D72A0AD54100D5C683 /* ArtistViewModel.swift in Sources */,
+				6771D8DF2A0C3DDA00D5C683 /* LikedSongsView.swift in Sources */,
+				67E45BBD2A0AA4B500B0F711 /* GenreViewModel.swift in Sources */,
+				6771D8E12A0C3DE500D5C683 /* NavView.swift in Sources */,
 				67E45BAD2A0AA42100B0F711 /* denemeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +336,8 @@
 				DEVELOPMENT_TEAM = 659FLGR7LF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = deneme/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "This app requires access to the media library to play audio tracks.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +367,8 @@
 				DEVELOPMENT_TEAM = 659FLGR7LF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = deneme/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "This app requires access to the media library to play audio tracks.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +409,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6714D98F2A10F013001CBD73 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		67E45BBE2A0ABC4900B0F711 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6714D9902A10F013001CBD73 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6714D98F2A10F013001CBD73 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		67E45BBF2A0ABC4900B0F711 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67E45BBE2A0ABC4900B0F711 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		67A8E9DF2A0EACBA00D48A91 /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67A8E9E02A0EACBA00D48A91 /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 67A8E9E02A0EACBA00D48A91 /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 67E45BA12A0AA42100B0F711 /* Project object */;
 }

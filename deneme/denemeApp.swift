@@ -1,17 +1,14 @@
-//
-//  denemeApp.swift
-//  deneme
-//
-//  Created by Ömür Şenocak on 9.05.2023.
-//
-
 import SwiftUI
 
 @main
 struct denemeApp: App {
+    @StateObject private var userData = UserData.shared // Use the shared instance
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavView()
+                .environmentObject(userData) // Inject UserData into the environment
         }
     }
 }
+
